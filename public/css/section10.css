@@ -1,0 +1,73 @@
+#wrap {
+  width: 100%;
+}
+#wrap #section10 {
+  width: 100%;
+  padding: 120px 0;
+  background: rgb(246, 246, 246);
+}
+#wrap #section10 .container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1183px;
+}
+#wrap #section10 .container .gap {
+  width: 100%;
+}
+#wrap #section10 .container .gap .content {
+  width: 100%;
+}
+#wrap #section10 .container .gap .content ul {
+  display: flex;
+  width: 100%;
+}
+#wrap #section10 .container .gap .content ul li {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+#wrap #section10 .container .gap .content ul li > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#wrap #section10 .container .gap .content ul li > div img {
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 13px;
+  height: 120px;
+  text-align: center;
+}
+#wrap #section10 .container .gap .content ul li > div p {
+  margin: 30px 18px 20px 18px;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  line-height: 22px;
+  text-align: center;
+}
+#wrap #section10 .container .gap .content ul li > div div {
+  display: flex;
+  padding: 7.281px 0;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+}
+#wrap #section10 .container .gap .content ul li > div div i {
+  margin: 0 5px;
+  color: #e6af2a;
+  font-size: 15px;
+}
+#wrap #section10 .container .gap .content ul li > div h4 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}

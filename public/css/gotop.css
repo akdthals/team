@@ -1,0 +1,24 @@
+#wrap .gotop {
+  z-index: 3;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#wrap .gotop a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap .gotop a i {
+  font-size: 20px;
+  margin: -7px 0 0 0;
+}

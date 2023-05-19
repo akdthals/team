@@ -1,0 +1,118 @@
+#wrap #header {
+  width: 100%;
+  background: #000;
+  height: 79px;
+  position: fixed;
+  z-index: 10;
+}
+#wrap #header.on {
+  animation: header-paral-on 0.6s ease-in-out both;
+}
+#wrap #header.off {
+  animation: header-paral-off 0.6s ease-in-out both;
+}
+#wrap #header .container {
+  width: 100%;
+  max-width: 1183px;
+  margin: 0 auto;
+}
+#wrap #header .container .gap {
+  width: 100%;
+}
+#wrap #header .container .gap .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap #header .container .gap .content .left-box {
+  width: 140px;
+  padding: 6px 15px;
+}
+#wrap #header .container .gap .content .left-box a img {
+  width: 109px;
+  height: 34px;
+  justify-content: left;
+}
+#wrap #header .container .gap .content .right-box {
+  padding: 0 15px;
+}
+#wrap #header .container .gap .content .right-box ul {
+  display: flex;
+  align-items: center;
+  height: 79px;
+}
+#wrap #header .container .gap .content .right-box ul li {
+  padding: 5px 0 5px 40px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+#wrap #header .container .gap .content .right-box ul li a {
+  padding: 0 0 8px 0;
+  color: #fff;
+}
+#wrap #header .container .gap .content .right-box ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+#wrap #header .container .gap #mobileNav {
+  display: none;
+  width: 24px;
+  height: 15px;
+  margin: auto 0 auto auto;
+}
+#wrap #header .container .gap #mobileNav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#wrap #header .container .gap #mobileNav a i {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+#wrap #header .container .gap #mobileNav a i.line1 {
+  top: 0;
+  transition: all 0.3s;
+}
+#wrap #header .container .gap #mobileNav a i.line1.on {
+  top: 50%;
+  margin: -1px 0 0 0;
+  transform: rotate(135deg);
+}
+#wrap #header .container .gap #mobileNav a i.line2 {
+  top: 50%;
+  margin: -1px 0 0 0;
+}
+#wrap #header .container .gap #mobileNav a i.line2.on {
+  display: none;
+}
+#wrap #header .container .gap #mobileNav a i.line3 {
+  bottom: 0;
+  transition: all 0.3s;
+}
+#wrap #header .container .gap #mobileNav a i.line3.on {
+  bottom: 50%;
+  margin: 0 0 -1px 0;
+  transform: rotate(-135deg);
+}
+@keyframes header-paral-on {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-86px);
+  }
+}
+@keyframes header-paral-off {
+  0% {
+    transform: translateY(-86px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
