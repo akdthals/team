@@ -1,0 +1,250 @@
+#wrap {
+  width: 100%;
+}
+#wrap #Womenall .container {
+  width: 100%;
+}
+#wrap #Womenall .container .gap {
+  padding: 0 40px 100px 40px;
+}
+#wrap #Womenall .container .gap .title {
+  padding: 9px 0;
+  display: flex;
+}
+#wrap #Womenall .container .gap .title .left-box {
+  margin: 0 0 0 10px;
+  width: 100%;
+  max-width: 230px;
+  display: flex;
+}
+#wrap #Womenall .container .gap .title .left-box ul {
+  width: 100%;
+  display: flex;
+}
+#wrap #Womenall .container .gap .title .left-box ul li {
+  display: flex;
+}
+#wrap #Womenall .container .gap .title .left-box ul li h1 {
+  margin: 0 0 0 10px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000;
+}
+#wrap #Womenall .container .gap .title .left-box ul li h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#wrap #Womenall .container .gap .title .left-box ul li h3 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin: 0 15px;
+}
+#wrap #Womenall .container .gap .title .left-box ul li h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000;
+}
+#wrap #Womenall .container .gap .title .center-box {
+  width: 100%;
+  display: flex;
+  margin: 0 0 0 20px;
+}
+#wrap #Womenall .container .gap .title .center-box ul {
+  width: 100%;
+  display: flex;
+  padding: 15px 0 0 0;
+}
+#wrap #Womenall .container .gap .title .center-box ul li {
+  margin: 0 0 0 65px;
+}
+#wrap #Womenall .container .gap .title .center-box ul li h4 {
+  font-size: 17px;
+  color: #000;
+  line-height: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .title .center-box ul li i {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 0 20px 0 0;
+}
+#wrap #Womenall .container .gap .title .center-box ul li i::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20%;
+  margin: -0.5px 0 0 0;
+  width: 8px;
+  height: 2px;
+  background: #000;
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .title .center-box ul li h5 {
+  font-size: 17px;
+  color: #000;
+  line-height: 18px;
+  align-items: center;
+  margin: 0 0 0 -25px;
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .title .center-box ul li:nth-child(3) {
+  margin: 0 0 0 10px;
+  color: #aaa;
+}
+#wrap #Womenall .container .gap .title .center-box ul li:nth-child(2) {
+  margin: 0 0 0 30px;
+}
+#wrap #Womenall .container .gap .title .right-box {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+}
+#wrap #Womenall .container .gap .title .right-box ul {
+  width: 100%;
+  display: flex;
+  padding: 15px 0 0 0;
+}
+#wrap #Womenall .container .gap .title .right-box ul li select {
+  cursor: pointer;
+  font-size: 16px;
+  justify-content: left;
+  border: 0;
+  padding: 0 20px 0 0;
+}
+#wrap #Womenall .container .gap .title .right-box ul .sk {
+  margin: 0 25px 0 50px;
+}
+#wrap #Womenall .container .gap .title .right-box ul .img1 {
+  margin: 0 25px 0 0;
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .title .right-box ul .img2 {
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .content {
+  display: flex;
+}
+#wrap #Womenall .container .gap .content .left-option {
+  width: 100%;
+  max-width: 270px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 1000px;
+}
+#wrap #Womenall .container .gap .content .right-main {
+  margin: 0 0 0 50px;
+  width: 100%;
+  max-width: 1523px;
+}
+#wrap #Womenall .container .gap .content .right-main > ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li {
+  width: 25%;
+  padding: 0 0 100px 0;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box {
+  position: relative;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box .parents-img {
+  position: relative;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box .parents-img img {
+  width: 358.25px;
+  height: 477.656px;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box .baby-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box .baby-img img {
+  width: 358.25px;
+  height: 477.656px;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .img-box:hover .baby-img {
+  opacity: 1;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box {
+  width: 100%;
+  display: block;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul {
+  justify-content: left;
+  width: 345px;
+  pointer-events: none;
+  display: flex;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
+  cursor: pointer;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li h4 {
+  padding: 10px 0 0 0;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li div {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li div h3 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li div img {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 325px;
+  bottom: 5px;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box ul li h2 {
+  margin: 9px 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(214, 0, 31);
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box button {
+  margin: 20px 0 0 0;
+  border-radius: 30px;
+  width: 343px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  offset: -1px;
+  border: 1px solid rgb(238, 238, 238);
+  transition: all 0.3s;
+  cursor: pointer;
+  pointer-events: all;
+}
+#wrap #Womenall .container .gap .content .right-main > ul > li a .txt-box button:hover {
+  border-color: #333;
+}
