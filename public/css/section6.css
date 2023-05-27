@@ -1,0 +1,111 @@
+#wrap {
+  width: 100%;
+}
+#wrap #section6 {
+  width: 100%;
+  padding: 70px 0 120px 0;
+}
+#wrap #section6 .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap #section6 .container .gap {
+  width: 100%;
+}
+#wrap #section6 .container .gap .title {
+  width: 100%;
+}
+#wrap #section6 .container .gap .title h2 {
+  text-align: center;
+  color: #000;
+  padding: 0 0 50px 0;
+  font-size: 34px;
+  font-weight: 720;
+  line-height: 54px;
+}
+#wrap #section6 .container .gap .content {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .slide-container {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap {
+  display: flex;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  margin: 0 10px 0 20px;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide a {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: 345px;
+  height: 460px;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
+  cursor: pointer;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide h3 {
+  padding: 10px 0 0 0;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .price {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .price h4 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide .price img {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 325px;
+  bottom: 5px;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide div {
+  width: 100%;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide div p {
+  margin: 9px 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(214, 0, 31);
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide button {
+  margin: 20px 0 0 0;
+  border-radius: 30px;
+  width: 343px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  offset: -1px;
+  border: 1px solid rgb(238, 238, 238);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#wrap #section6 .container .gap .content .slide-container .slide-view .slide-wrap .slide button:hover {
+  border: 1px solid #333;
+}

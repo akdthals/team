@@ -1,0 +1,17 @@
+#wrap {
+  width: 100%;
+}
+#wrap #header {
+  width: 100%;
+  background: #39c;
+  height: 100px;
+  position: fixed;
+  z-index: 10;
+}
+#wrap #header h2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,144 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #section1 {
+  width: 100%;
+}
+#wrap #main #section1 .container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view {
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap {
+  width: 700%;
+  display: flex;
+  position: relative;
+  margin-left: -100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a img {
+  display: block;
+  width: 100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box {
+  position: absolute;
+  bottom: 23.1481481481%;
+  left: 50%;
+  max-width: 1520px;
+  width: 100%;
+  padding: 0 40px;
+  transform: translateX(-50%);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.black h4 {
+  color: #000;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.black span {
+  border: 1px solid #000;
+  color: #000;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.black span:hover {
+  background-color: #000;
+  color: #fff;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.white h4 {
+  color: #fff;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.white span {
+  border: 1px solid #fff;
+  color: #fff;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box.white span:hover {
+  background-color: #fff;
+  color: #000;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box h4 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide > a .text-box span {
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  height: 50px;
+  margin-top: 29px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box {
+  position: absolute;
+  bottom: 4.1666666667%;
+  left: 50%;
+  z-index: 3;
+  max-width: 1520px;
+  width: 100%;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  display: inline-flex;
+  flex-flow: row wrap;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .page-bar-box {
+  padding: 0 40px;
+  width: calc(100% - 109px);
+  display: flex;
+  position: relative;
+  top: 15px;
+  z-index: 4;
+  box-sizing: border-box;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .page-bar-box .static-bar {
+  width: 100%;
+  position: relative;
+  border-top: 2px solid rgba(240, 240, 240, 0.368627451);
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .page-bar-box .static-bar .dynamic-bar {
+  width: 20%;
+  position: relative;
+  top: -2px;
+  border-top: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .arrow-box {
+  position: relative;
+  display: flex;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .arrow-box button {
+  display: block;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  border: 0;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .arrow-box .left-arrow {
+  background: url(../img/intro/icon_section1_left_arrow.svg) 50% 50% no-repeat;
+}
+#wrap #main #section1 .container .slide-container .slide-view .page-nation-box .arrow-box .right-arrow {
+  background: url(../img/intro/icon_section1_right_arrow.svg) 50% 50% no-repeat;
+}

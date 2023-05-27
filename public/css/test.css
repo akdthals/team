@@ -1,0 +1,15 @@
+#wrap {
+  width: 100%;
+}
+#wrap #test {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #test h2 {
+  font-size: 49px;
+  color: #fff;
+}

@@ -1,0 +1,143 @@
+#wrap{
+    width: 100%;
+    #main{
+        width: 100%;
+        #section1{
+            width: 100%;
+            .container{
+                width: 100%;
+                position: relative;
+                .slide-container{
+                    position: relative;
+                    z-index: 1;
+                    width: 100%;
+                    .slide-view{
+                        z-index: 1;
+                        width: 100%;
+                        overflow: hidden;
+                        position: relative;
+                        .slide-wrap{
+                            width: 100% * 7;
+                            display: flex;
+                            position: relative;
+                            margin-left: -100%;
+                            .slide{
+                                width: 100%;
+                                height: 100vh;
+                                position: relative;
+                                >a {
+                                    width: 100%;
+                                    position: relative;
+                                    img {
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .text-box {    
+                                            position: absolute;
+                                            bottom: calc(250 / 1080 * 100%);
+                                            left: 50%;
+                                            max-width: 1520px;
+                                            width: 100%;
+                                            padding: 0 40px;
+                                            transform: translateX(-50%);
+                                            &.black {
+                                                h4 {color: #000;}
+                                                span {
+                                                    border: 1px solid #000; color: #000;
+                                                    &:hover {
+                                                        background-color: #000;
+                                                        color: #fff;
+                                                    }
+                                                }
+                                            }
+                                            &.white {
+                                                h4 {color: #fff;}
+                                                span {
+                                                    border: 1px solid #fff; color: #fff;
+                                                    &:hover {
+                                                        background-color: #fff;
+                                                        color: #000;
+                                                    }
+                                                }
+                                            }
+                                        h4 {
+                                            font-weight: 700;
+                                            font-size: 48px;
+                                            line-height: 52px;
+                                        }
+                                        span {
+                                            font-size: 16px;
+                                            display: inline-flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            min-width: 160px;
+                                            height: 50px;
+                                            margin-top: 29px;
+                                            border-width: 1px;
+                                            border-style: solid;
+                                            border-radius: 50px;
+                                            box-sizing: border-box;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .page-nation-box {
+                            position: absolute;
+                            bottom: calc(45 / 1080 * 100%);
+                            left: 50%;
+                            z-index: 3;
+                            max-width: 1520px;
+                            width: 100%;
+                            box-sizing: border-box;
+                            transform: translateX(-50%);
+                            display: inline-flex;
+                            flex-flow: row wrap;
+                            .page-bar-box {
+                                padding: 0 40px;
+                                width: calc(100% - 109px);
+                                display: flex;
+                                position: relative;
+                                top: 15px;
+                                z-index: 4;
+                                box-sizing: border-box;
+                                .static-bar {
+                                    width: 100%;
+                                    position: relative;
+                                    border-top: 2px solid #f0f0f05e;
+                                    .dynamic-bar {
+                                        width: 20%;
+                                        position: relative;
+                                        top: -2px;
+                                        border-top: 2px solid #fff;
+                                        transition: all .3s ease-in-out;
+                                    }
+                                }
+                            }
+                            .arrow-box {
+                                // position: absolute;
+                                position: relative;
+                                display: flex;
+                                button {
+                                    display: block;
+                                    width: 42px;
+                                    height: 42px;
+                                    cursor: pointer;
+                                    border: 0;
+                                }
+                                .left-arrow {
+                                    background: url(../img/intro/icon_section1_left_arrow.svg) 50% 50% no-repeat;
+                                }
+                                .right-arrow {
+                                    background: url(../img/intro/icon_section1_right_arrow.svg) 50% 50% no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

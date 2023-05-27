@@ -1,0 +1,192 @@
+#wrap {
+  width: 100%;
+}
+#wrap .product-section {
+  width: 100%;
+  line-height: 1.5;
+}
+#wrap .product-section .container {
+  width: 100%;
+  padding: 40px 40px 100px;
+}
+#wrap .product-section .container .gap {
+  width: 100%;
+}
+#wrap .product-section .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#wrap .product-section .container .gap .content .filter-box {
+  width: 230px;
+  background-color: green;
+}
+#wrap .product-section .container .gap .content .product-box {
+  width: calc(100% - 230px);
+}
+#wrap .product-section .container .gap .content .product-box > ul {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li {
+  cursor: pointer;
+  width: 358.25px;
+  margin: 0 0 80px 40px;
+  height: 604.66px;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li:hover .img-box .main-img-box {
+  z-index: 1;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box {
+  width: 100%;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .main-img-box {
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .main-img-box img {
+  width: 100%;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container:hover {
+  opacity: 1;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view {
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .slide-wrap {
+  width: 300%;
+  display: flex;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .slide-wrap .slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.2));
+  z-index: 1;
+  background-size: 100% 100%;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .slide-wrap .slide > a {
+  width: 100%;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .slide-wrap .slide > a img {
+  display: block;
+  width: 100%;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box {
+  position: absolute;
+  bottom: 8.3333333333%;
+  left: 50%;
+  z-index: 4;
+  max-width: 1520px;
+  width: 100%;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  display: inline-flex;
+  flex-flow: row wrap;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .page-bar-box {
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 15px;
+  z-index: 4;
+  box-sizing: border-box;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .page-bar-box .static-bar {
+  width: 100%;
+  position: relative;
+  border-top: 2px solid rgba(240, 240, 240, 0.368627451);
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .page-bar-box .static-bar .dynamic-bar {
+  width: 33.3333333333%;
+  position: relative;
+  top: -2px;
+  border-top: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .arrow-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .arrow-box button {
+  display: block;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  border: 0;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .arrow-box .left-arrow {
+  z-index: 99999;
+  position: absolute;
+  left: 0;
+  bottom: -31px;
+  background: url(../img/women_backpack/women_backpack_slide_right_arrow.svg) 50% 50% no-repeat;
+  transform: rotate(180deg);
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .img-box .slide-container .slide-view .page-nation-box .arrow-box .right-arrow {
+  z-index: 99999;
+  position: absolute;
+  right: 0;
+  bottom: -31px;
+  background: url(../img/women_backpack/women_backpack_slide_right_arrow.svg) 50% 50% no-repeat;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box {
+  padding: 11px 0 0 0;
+  position: relative;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li {
+  color: #000;
+  display: block;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li:nth-child(2) {
+  margin: 8px 0 12px 0;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li p {
+  font-weight: 400;
+  font-size: 14px;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li em {
+  font-weight: 700;
+  font-size: 18px;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li span {
+  font-weight: 400;
+  font-size: 16px;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li.favorite-product {
+  position: absolute;
+  width: 38px;
+  height: 36px;
+  bottom: 3px;
+  right: 0px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#wrap .product-section .container .gap .content .product-box > ul > li .title-box > ul > li.favorite-product img {
+  width: 18px;
+  height: 16px;
+}

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+#wrap {
+  width: 100%;
+}
+#wrap #section11 {
+  width: 100%;
+  padding: 120px 0;
+}
+#wrap #section11 .container {
+  width: 100%;
+  max-width: 1183px;
+  margin: 0 auto;
+}
+#wrap #section11 .container .gap {
+  width: 100%;
+}
+#wrap #section11 .container .gap .title {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#wrap #section11 .container .gap .title h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+#wrap #section11 .container .gap .content {
+  width: 100%;
+}
+#wrap #section11 .container .gap .content .top-box {
+  width: 100%;
+}
+#wrap #section11 .container .gap .content .top-box ul {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#wrap #section11 .container .gap .content .top-box ul li {
+  width: 33%;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+#wrap #section11 .container .gap .content .top-box ul li i {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  min-height: 65px;
+  margin: 0 3px 15px 3px;
+}
+#wrap #section11 .container .gap .content .top-box ul li h3 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+#wrap #section11 .container .gap .content .top-box.on { /* 페럴럭스 기능 */
+  transform: translateY(1500px);
+  animation: sec11Ani 1s ease-in-out both;
+}
+@keyframes sec11Ani {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+#wrap #section11 .container .gap .content hr {
+  width: 100%;
+  height: 1px;
+  margin: 130px 0;
+  background: #e5e5e5;
+  border: 0;
+}
+#wrap #section11 .container .gap .content .bottom-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#wrap #section11 .container .gap .content .bottom-box .left-side {
+  margin: 0 15px;
+}
+#wrap #section11 .container .gap .content .bottom-box .left-side ul {
+  width: 100%;
+}
+#wrap #section11 .container .gap .content .bottom-box .left-side ul li {
+  width: 50%;
+  cursor: text;
+  margin-bottom: 20px;
+}
+#wrap #section11 .container .gap .content .bottom-box .left-side ul li input {
+  height: 42px;
+  width: 560px;
+  font-size: 12px;
+  background: #fff;
+  color: #dfdfdf;
+  outline-offset: -1px;
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+  padding: 8px 15px;
+}
+#wrap #section11 .container .gap .content .bottom-box .left-side ul li h5 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side {
+  margin: 0 15px;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side ul {
+  width: 100%;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side ul li {
+  width: 50%;
+  margin-bottom: 20px;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side ul li textarea {
+  height: 102px;
+  width: 561.5px;
+  font-size: 12px;
+  color: #000;
+  font-family: "Open Sans";
+  background: #fff;
+  color: #dfdfdf;
+  outline-offset: -1px;
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+  padding: 8px 15px;
+  display: flex;
+  align-items: flex-start;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side ul li button {
+  margin: 0 0 0 400px;
+  align-items: flex-start;
+  border: 2px solid #000;
+  color: #fff;
+  background: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 8px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  width: 157px;
+  cursor: pointer;
+}
+#wrap #section11 .container .gap .content .bottom-box .right-side ul li button:hover {
+  background: #fff;
+  color: #000;
+}

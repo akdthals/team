@@ -1,0 +1,73 @@
+@charset "UTF-8";
+#wrap {
+  width: 100%;
+}
+#wrap #section7 {
+  width: 100%;
+}
+#wrap #section7 .container {
+  width: 100%;
+  height: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+#wrap #section7 .container .title {
+  width: 100%;
+}
+#wrap #section7 .container .title ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap #section7 .container .title ul li {
+  width: auto;
+}
+#wrap #section7 .container .title ul li img {
+  width: auto;
+}
+#wrap #section7 .container .title ul li a {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  line-height: 30px;
+}
+#wrap #section7 .container .content {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+#wrap #section7 .container .content .instar-list-box {
+  width: 1450px;
+  margin: 0 0 0 -10px;
+}
+#wrap #section7 .container .content .instar-list-box ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+#wrap #section7 .container .content .instar-list-box ul li {
+  width: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #section7 .container .content .instar-list-box ul li .col-gap {
+  width: auto;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+#wrap #section7 .container .content .instar-list-box ul li .col-gap a {
+  display: inline-block;
+  width: 100%;
+  height: 280px;
+}
+#wrap #section7 .container .content .instar-list-box ul li .col-gap a img {
+  display: inline-block;
+  width: 100%;
+  transform: translateY(-50%); /* 이미지를 수직으로 중앙으로 이동 */
+  top: 50%;
+  position: relative;
+}
