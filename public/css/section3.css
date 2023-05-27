@@ -1,0 +1,80 @@
+#section3 {
+  width: 100%;
+}
+#section3 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+}
+#section3 .container .slide-container {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#section3 .container .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#section3 .container .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  margin-right: 40px;
+  pointer-events: none;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .img-box {
+  width: 100%;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .img-box a img {
+  width: 800px;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 30px 0 80px 0;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box .tit {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #000;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box .txt {
+  margin: 35px 0 0 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #999;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box .btn {
+  width: 100%;
+  margin: 37px 0 0 0;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box .btn a {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 0 0 10px;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.3s;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+#section3 .container .slide-container .slide-view .slide-wrap .slide .txt-box .btn a:hover {
+  background-color: #002a65;
+  color: #fff;
+}

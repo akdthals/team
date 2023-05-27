@@ -1,0 +1,85 @@
+#section3 {
+    width: 100%;
+    .container {
+        width: 100%;
+        max-width: 1903px;
+        margin: 0 auto;
+        .slide-container {
+            z-index: 1;
+            width: 100%;
+            position: relative;
+            user-select: none;
+            .slide-view {
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                .slide-wrap {
+                    width: 100%;
+                    display: flex;
+                    position: relative;
+                    // user-select: none;
+                    .slide {
+                        width: 100%;
+                        margin-right: 40px;
+                        pointer-events: none;
+                        .img-box {
+                            width: 100%;
+                            a {
+                                img {
+                                    width: 800px;
+                                }
+                            }
+                        }
+                        .txt-box {
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            margin: 30px 0 80px 0;
+                            p {
+
+                            }
+                            .tit {
+                                font-size: 36px;
+                                font-weight: 700;
+                                line-height: 52px;
+                                color: #000;
+                            }
+                            .txt {
+                                margin: 35px 0 0 0;
+                                font-size: 20px;
+                                font-weight: 400;
+                                line-height: 28px;
+                                color: #999;
+                            }
+                            .btn {
+                                width: 100%;
+                                margin: 37px 0 0 0;
+                                a {
+                                    display: inline-block;
+                                    width: 200px;
+                                    height: 50px;
+                                    line-height: 50px;
+                                    margin: 0 0 0 10px;
+                                    border: 1px solid #eee;
+                                    border-radius: 50px;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    transition: all 0.3s;
+                                    color: #000;
+                                    justify-content: center;
+                                    align-items: center;
+                                    box-sizing: border-box;
+                                    &:hover {
+                                        background-color: #002a65;
+                                        color: #fff;
+                                    }
+                                }
+             
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

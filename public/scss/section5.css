@@ -1,0 +1,102 @@
+#section5 {
+  width: 100%;
+}
+#section5 .container {
+  width: 100%;
+  max-width: 1903px;
+  margin: 0 auto;
+  padding: 0 0 80px 0;
+}
+#section5 .container .title {
+  margin: 0 191.5px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+#section5 .container .title .left-txt h2 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+#section5 .container .title .right-txt a {
+  display: inline-block;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+#section5 .container .title .right-txt a:hover {
+  background-color: #002965;
+  color: #fff;
+}
+#section5 .container .content {
+  margin: 30px 0 0 0;
+}
+#section5 .container .content .slide-container {
+  width: 100%;
+  position: relative;
+}
+#section5 .container .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  margin-right: 40px;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .img-box {
+  width: 100%;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .img-box a {
+  cursor: pointer;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .img-box a img {
+  width: 600px;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .txt-box {
+  width: 100%;
+  margin: 29px 0 0 0;
+  cursor: pointer;
+  position: relative;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .txt-box .tit {
+  margin: 0 0 26px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000;
+  text-align: left;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .txt-box .txt {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+  text-align: left;
+}
+#section5 .container .content .slide-container .slide-view .slide-wrap .slide .txt-box .category {
+  position: absolute;
+  color: #000;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  right: 0;
+  top: 0;
+}/*# sourceMappingURL=section5.css.map */

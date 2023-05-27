@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="24.266px" height="21.75px" viewBox="0 0 24.266 21.75" enable-background="new 0 0 24.266 21.75" xml:space="preserve">
+<g>
+	<polygon fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" points="23.177,11.695 1.135,11.685    1.135,20.922 23.177,20.933  "></polygon>
+	<polyline fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" points="4.139,7.596 1.079,4.063 4.139,0.529     "></polyline>
+	<polyline fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" points="20.117,7.596 23.177,4.063    20.117,0.529  "></polyline>
+	<line fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" x1="1.079" y1="4.063" x2="23.177" y2="4.063"></line>
+	<line fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" x1="12.156" y1="11.687" x2="12.156" y2="16.309"></line>
+	<line fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" x1="6.646" y1="11.687" x2="6.646" y2="16.397"></line>
+	<line fill="none" stroke="#002053" stroke-width="1.6" stroke-miterlimit="10" x1="17.667" y1="11.687" x2="17.667" y2="16.397"></line>
+</g>
+</svg>

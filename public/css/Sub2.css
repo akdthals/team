@@ -1,0 +1,412 @@
+#Sub2 {
+  width: 100%;
+}
+#Sub2 .container {
+  width: 100%;
+  max-width: 1770px;
+  padding: 0 40px 100px 40px;
+}
+#Sub2 .container .gap {
+  width: 100%;
+}
+#Sub2 .container .gap .title {
+  width: 100%;
+  display: flex;
+  padding: 9px 40px;
+  align-items: center;
+}
+#Sub2 .container .gap .title .left-box {
+  width: 230px;
+}
+#Sub2 .container .gap .title .left-box h1 {
+  color: #000;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+}
+#Sub2 .container .gap .title .left-box h1 img {
+  margin: 0 15px;
+}
+#Sub2 .container .gap .title .right-box {
+  width: 1593px;
+  display: flex;
+  align-items: end;
+  margin: 0 0 0 40px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+#Sub2 .container .gap .title .right-box .left {
+  font-size: 16px;
+}
+#Sub2 .container .gap .title .right-box .left i {
+  margin: 0 0 0 34px;
+  color: #ccc;
+}
+#Sub2 .container .gap .title .right-box .left > a {
+  margin: 0 0 0 31px;
+  color: #000;
+  cursor: pointer;
+}
+#Sub2 .container .gap .title .right-box .right {
+  display: flex;
+  align-items: center;
+}
+#Sub2 .container .gap .title .right-box .right a {
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+  cursor: pointer;
+}
+#Sub2 .container .gap .title .right-box .right a select {
+  border: 0;
+  font-size: 16px;
+}
+#Sub2 .container .gap .title .right-box .right i {
+  margin-left: 60px;
+}
+#Sub2 .container .gap .title .right-box .right .btn a {
+  cursor: pointer;
+  margin-left: 20px;
+}
+#Sub2 .container .gap .title .right-box .right .btn a img {
+  margin-left: 20px;
+}
+#Sub2 .container .gap .content {
+  display: flex;
+}
+#Sub2 .container .gap .content .category-box {
+  width: 230px;
+  padding-right: 40px;
+  position: sticky;
+  top: 40px;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+#Sub2 .container .gap .content .category-box::-webkit-scrollbar {
+  width: 5px;
+}
+#Sub2 .container .gap .content .category-box::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+#Sub2 .container .gap .content .category-box::-webkit-scrollbar-thumb {
+  background-color: #5f0080;
+}
+#Sub2 .container .gap .content .category-box .category button {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  background: url("./img/KHB/arr_up_bk_9x6.png") no-repeat 100% 50%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+}
+#Sub2 .container .gap .content .category-box .category .category1 {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#Sub2 .container .gap .content .category-box .category .category1 ul li {
+  padding: 15px 0;
+}
+#Sub2 .container .gap .content .category-box .category .category1 ul li a {
+  font-size: 18px;
+  font-weight: 500;
+}
+#Sub2 .container .gap .content .category-box .category .category2 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#Sub2 .container .gap .content .category-box .category .category2 ul li {
+  padding: 10px 0;
+}
+#Sub2 .container .gap .content .category-box .category .category2 ul li label {
+  font-size: 16px;
+}
+#Sub2 .container .gap .content .category-box .category .category2 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Sub2 .container .gap .content .category-box .category .category2 ul li label input:checked {
+  border: 1px solid #333;
+}
+#Sub2 .container .gap .content .category-box .category .category2 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../img/KHB/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#Sub2 .container .gap .content .category-box .category .category3 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li {
+  width: 22px;
+  height: 22px;
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  background-size: cover;
+  background: url no-repeat 50% 50%;
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#BEIGE {
+  background-image: url("../img/KHB/BEIGE.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#BLACK {
+  background-image: url("../img/KHB/BLACK.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#BLUE {
+  background-image: url("../img/KHB/BLUE.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#GREEN {
+  background-image: url("../img/KHB/GREEN.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#GREY {
+  background-image: url("../img/KHB/GREY.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#PINK {
+  background-image: url("../img/KHB/PINK.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#RED {
+  background-image: url("../img/KHB/RED.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#WHITE {
+  background-image: url("../img/KHB/WHITE.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#YELLOW {
+  background-image: url("../img/KHB/YELLOW.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#ORANGE {
+  background-image: url("../img/KHB/ORANGE.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#MIX {
+  background-image: url("../img/KHB/MIX.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#NAVY {
+  background-image: url("../img/KHB/NAVY.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input#NEON {
+  background-image: url("../img/KHB/NEON.png");
+}
+#Sub2 .container .gap .content .category-box .category .category3 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../img/KHB/ico_check_wt_12x8.png") no-repeat 50% 50%;
+}
+#Sub2 .container .gap .content .category-box .category .category4 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#Sub2 .container .gap .content .category-box .category .category4 ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#Sub2 .container .gap .content .category-box .category .category4 ul li label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 43px;
+  height: 50px;
+}
+#Sub2 .container .gap .content .category-box .category .category4 ul li label input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+#Sub2 .container .gap .content .category-box .category .category4 ul li label input:checked {
+  border-color: #333;
+}
+#Sub2 .container .gap .content .category-box .category .category4 ul li label span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+}
+#Sub2 .container .gap .content .category-box .category .category5 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#Sub2 .container .gap .content .category-box .category .category5 ul li {
+  padding: 10px 0;
+}
+#Sub2 .container .gap .content .category-box .category .category5 ul li label {
+  font-size: 16px;
+}
+#Sub2 .container .gap .content .category-box .category .category5 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Sub2 .container .gap .content .category-box .category .category5 ul li label input:checked {
+  border: 1px solid #333;
+}
+#Sub2 .container .gap .content .category-box .category .category5 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../public/img/sub1-1/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#Sub2 .container .gap .content .category-box .category .category6 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#Sub2 .container .gap .content .category-box .category .category6 ul li {
+  padding: 10px 0;
+}
+#Sub2 .container .gap .content .category-box .category .category6 ul li label {
+  font-size: 16px;
+}
+#Sub2 .container .gap .content .category-box .category .category6 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Sub2 .container .gap .content .category-box .category .category6 ul li label input:checked {
+  border: 1px solid #333;
+}
+#Sub2 .container .gap .content .category-box .category .category6 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../public/img/sub1-1/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#Sub2 .container .gap .content .content-box {
+  width: 100%;
+  margin-left: 40px;
+}
+#Sub2 .container .gap .content .content-box ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box {
+  position: relative;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box .front-img {
+  position: relative;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box .front-img img {
+  width: 358.25px;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box .back-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box .back-img img {
+  width: 358.25px;
+}
+#Sub2 .container .gap .content .content-box ul li a .img-box:hover .back-img {
+  opacity: 1;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box {
+  width: 100%;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box ul {
+  display: block;
+  padding-top: 11px;
+  width: 256.75px;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box ul .t1 {
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box ul .t2 {
+  color: #000;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box ul .t3 {
+  color: #000;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 18px;
+}
+#Sub2 .container .gap .content .content-box ul li a .txt-box ul .t4 {
+  color: #d6001f;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 9px;
+}

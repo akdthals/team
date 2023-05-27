@@ -1,0 +1,6 @@
+components 폴더
+    -Wrapcomponent.jsx
+    wrap 폴더
+    -section3component.jsx
+    -section5component.jsx
+    slide 14개
