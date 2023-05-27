@@ -1,0 +1,150 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+}
+#wrap #main #section1 {
+  width: 100%;
+}
+#wrap #main #section1 .container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 .container:hover .arrow-next-btn {
+  right: 3%;
+}
+#wrap #main #section1 .container:hover .arrow-prev-btn {
+  left: 3%;
+}
+#wrap #main #section1 .container .slide-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view {
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap {
+  width: 500%;
+  display: flex;
+  position: relative;
+  animation: slide 15s infinite ease-in-out both;
+  margin: 0 0 0 -100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100vh;
+  background: url() no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide div {
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 100%;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 60px 0;
+  line-height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide div h4 {
+  text-transform: uppercase;
+  color: #fff;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide div h4 span {
+  background: #e6af2a;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 24px;
+  padding: 3px 12px;
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide1 {
+  background-image: url(../img/travel-agency-slider01.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide2 {
+  background-image: url(../img/travel-agency-slider02.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide3 {
+  background-image: url(../img/travel-agency-slider03.jpg);
+}
+#wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+#wrap #main #section1 .container .slide-container:hover {
+  cursor: url(../img/icon-move-light.png), auto;
+}
+#wrap #main #section1 .container .arrow-next-btn {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  right: -6%;
+  width: 40px;
+  height: 40px;
+  margin: -50px 0 0 0;
+  transition: all 0.3s;
+}
+#wrap #main #section1 .container .arrow-next-btn i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+}
+#wrap #main #section1 .container .arrow-prev-btn {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  width: 40px;
+  height: 40px;
+  margin: -50px 0 0 0;
+  transition: all 0.3s;
+}
+#wrap #main #section1 .container .arrow-prev-btn i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  transform: rotate(-45deg);
+}
+#wrap #main #section1 .container .page-btn-box {
+  z-index: 5;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#wrap #main #section1 .container .page-btn-box span {
+  margin: 0 15px;
+}
+#wrap #main #section1 .container .page-btn-box span a {
+  display: inline-block;
+  width: 33px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.2s;
+}
+#wrap #main #section1 .container .page-btn-box span a.on {
+  border: 2px solid rgb(255, 255, 255);
+}

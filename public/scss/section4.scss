@@ -1,0 +1,112 @@
+#wrap{
+    width: 100%;
+    #section4{
+        border-top: 1px solid #eee;
+        width: 100%;
+        padding: 80px 0 120px 0;    
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                .title{
+                    width: 100%;
+                    ul{
+                        width: 100%;
+                        li{
+                            padding: 0 40px;
+                            margin: 0 191.500px;
+                            height: 54px;
+                            display: flex;
+                            justify-content: space-between;
+                            h2{
+                                font-size: 36px;
+                                font-weight: 700;
+                                line-height: 54px;
+                                color: #000;
+                            }
+                            button{
+                                font-size: 16px;
+                                box-sizing: border-box;
+                                border: 1px solid rgb(238,238,238);
+                                width: 100px;
+                                background: #fff;
+                                height: 50px;
+                                line-height: 50px;
+                                text-align: center;
+                                border-radius: 30px;
+                                cursor: pointer;
+                                transition: all 0.3s;
+                                &:hover{
+                                    color: #fff;
+                                    background: #071a4c ;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content{
+                    width: 100%;
+                    .slide-container{
+                        width: 100%;
+                        position: relative;
+                        .slide-view{
+                            width: 100% ;
+                            overflow: hidden;
+                            position: relative;
+                            .slide-wrap{
+                                width: 100% *8;
+                                display: flex;
+                                position: relative;
+                                .slide{
+                                    // display: inline-block;
+                                    width: 420px;
+                                    height: 560px;
+                                    background: url() no-repeat 50% 50%;
+                                    margin: 40px 5px 0 15px;
+                                    background-size: cover;
+                                    &.slide1{background-image: url('../img/HSM/intro/여6_29.jpg');}
+                                    &.slide2{background-image: url('../img/HSM/intro/여2_57.jpg');}
+                                    &.slide3{background-image: url('../img/HSM/intro/여1_82.jpg');}
+                                    &.slide4{background-image: url('../img/HSM/intro/여5_53.jpg');}
+                                    &.slide5{background-image: url('../img/HSM/intro/여7_27.jpg');}
+                                    &.slide6{background-image: url('../img/HSM/intro/여4_87.jpg');}
+                                    &.slide7{background-image: url('../img/HSM/intro/남3_1_43.jpg');}
+                                    &.slide8{background-image: url('../img/HSM/intro/커플2_18.jpg');}
+                                    &.slide9{background-image: url('../img/HSM/intro/커플1_60.jpg');}
+                                    &.slide10{background-image: url('../img/HSM/intro/남4_80.jpg');}
+                                    &.slide11{background-image: url('../img/HSM/intro/남2_21.jpg');}
+                                    &.slide12{background-image: url('../img/HSM/intro/남1_85.jpg');}
+                                    &.slide13{background-image: url('../img/HSM/intro/07_87.jpg');}
+                                    &.slide14{background-image: url('../img/HSM/intro/10_19.jpg');}
+                                    &.slide15{background-image: url('../img/HSM/intro/25_79.jpg');}
+                                    &.slide16{background-image: url('../img/HSM/intro/21_1_63.jpg');}
+                                    &.slide17{background-image: url('../img/HSM/intro/19_29.jpg');}
+                                    &.slide18{background-image: url('../img/HSM/intro/16_71.jpg');}
+                                    &.slide19{background-image: url('../img/HSM/intro/01_25.jpg');}
+                                    &.slide20{background-image: url('../img/HSM/intro/06_3003 copy_76.jpg');}
+                                    &.slide21{background-image: url('../img/HSM/intro/06_2830 copy_46.jpg');}
+                                    &.slide22{background-image: url('../img/HSM/intro/04_2360 copy_12.jpg');}
+                                    &.slide23{background-image: url('../img/HSM/intro/05_2604 copy_80.jpg');}
+                                    &.slide24{background-image: url('../img/HSM/intro/01_1939 copy_35.jpg');}
+                                    &.slide25{background-image: url('../img/HSM/intro/03_2212 copy_23.jpg');}
+                                    &.slide26{background-image: url('../img/HSM/intro/06_2914 copy_87.jpg');}
+                                    &.slide27{background-image: url('../img/HSM/intro/03_2045 copy_95.jpg');}
+                                    &.slide28{background-image: url('../img/HSM/intro/05_2565 copy_34.jpg');}
+                                    &.slide29{background-image: url('../img/HSM/intro/06_3101 copy_66.jpg');}
+                                    &.slide30{background-image: url('../img/HSM/intro/02_2006 copy_71.jpg');}
+                                    &.slide31{background-image: url('../img/HSM/intro/06_2972 copy_64.jpg');}
+                                    &.slide32{background-image: url('../img/HSM/intro/03_2260 copy_52.jpg');}
+                                    &.slide33{background-image: url('../img/HSM/intro/03_2118 copy_35.jpg');}
+                                    &.slide34{background-image: url('../img/HSM/intro/04_2304 copy_53.jpg');}
+                                    &.slide35{background-image: url('../img/HSM/intro/05_2677 copy_32.jpg');}
+                                    &.slide36{background-image: url('../img/HSM/intro/04_2438 copy_56.jpg');}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+  overflow: hidden;
+}
+#wrap #main #section5 {
+  width: 100%;
+  padding: 120px 0 0 0;
+}
+#wrap #main #section5 .container {
+  width: 100%;
+}
+#wrap #main #section5 .container .gap {
+  width: 100%;
+}
+#wrap #main #section5 .container .gap .title {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 95.141px 0;
+}
+#wrap #main #section5 .container .gap .title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #000;
+}
+#wrap #main #section5 .container .gap .title h2 {
+  width: 100%;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgb(98, 98, 98);
+  font-weight: 600;
+  margin: 19.016px 0;
+}
+#wrap #main #section5 .container .gap .content {
+  width: 100%;
+}
+#wrap #main #section5 .container .gap .content #travel-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15px 15px;
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul {
+  padding: 0 0 15px 15px;
+  display: flex;
+  flex-flow: row wrap;
+  cursor: pointer;
+}
+@media all and (max-width: 500px) {
+  #wrap #main #section5 .container .gap .content #travel-nav ul {
+    display: block;
+  }
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li {
+  margin: 0 1.313715187vw;
+}
+@media all and (max-width: 500px) {
+  #wrap #main #section5 .container .gap .content #travel-nav ul li {
+    margin: 15px 0;
+    width: auto;
+    text-align: center;
+  }
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s;
+  display: block;
+}
+@media all and (max-width: 500px) {
+  #wrap #main #section5 .container .gap .content #travel-nav ul li a {
+    display: inline-block;
+  }
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a::after {
+  content: "";
+  margin: 4px 0 0 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgba(34, 131, 212, 0);
+  transition: all 0.3s;
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a:hover {
+  color: #626262;
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a.on {
+  color: #626262;
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a:hover::after {
+  background-color: #000;
+}
+#wrap #main #section5 .container .gap .content #travel-nav ul li a.on::after {
+  background-color: #000;
+}
+#wrap #main #section5 .container .gap .content #travel-box {
+  width: 100%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li {
+  position: absolute;
+  width: 25%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(1) {
+  top: 0px;
+  left: 0%;
+  padding: 0 0 0 0;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(2) {
+  top: 0px;
+  left: 25%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(3) {
+  top: 0px;
+  left: 50%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(4) {
+  top: 0px;
+  left: 75%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(5) {
+  top: 366.8125px;
+  left: 0%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(6) {
+  top: 366.8125px;
+  left: 25%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(7) {
+  top: 366.8125px;
+  left: 50%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:nth-child(8) {
+  top: 366.8125px;
+  left: 75%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li:hover .col-gap figcaption {
+  margin: -86px 0 0 0;
+  transition: all 0.3s;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 0 15px 0;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap:hover {
+  cursor: url(../img/icon-zoom-white.png), auto;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap .img-box {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 287.969px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap .img-box:hover img {
+  filter: brightness(0.5);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap .img-box.addZoom {
+  transform: scale(1);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap .img-box img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption {
+  transition: all 0.3s;
+  z-index: 2;
+  position: relative;
+  padding: 40px 0 30px 0;
+  text-align: center;
+  background: #fff;
+  transform: scale(0);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption.addZoom {
+  transform: scale(1);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption h3 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption h3:hover {
+  cursor: pointer;
+  color: #000;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption h4 {
+  font-size: 11px;
+  letter-spacing: 3px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: rgb(136, 136, 136);
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption button {
+  padding: 2px 14px;
+  border: 2px solid #000;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 23px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 30px 0;
+  cursor: pointer;
+}
+#wrap #main #section5 .container .gap .content #travel-box ul li .col-gap figcaption button:hover {
+  background: #fff;
+  color: #000;
+}
